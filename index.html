@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Your description goes here" />
+    <meta name="keywords" content="one, two, three" />
+    <meta name content="" />
+
+    <title>Random Person Generator</title>
+
+    <!-- external CS  link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center col-md-12 mb-3">
+          Random Person Generator <i class="fas fa-male"></i>
+          <i class="fas fa-female"></i>
+        </h1>
+        <button class="btn btn-primary mb-5 col" id="bttn" type="button">
+          Generate Random Person
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <img class="imag-border mb-3" id="img" src="" />
+      </div>
+      <div class="d-flex justify-content-center">
+        <h2 class="mx-3" id="output">
+          Title: <span class="title"></span> <br />
+          <hr />
+          FirstName: <span class="firstName"></span> <br />
+          <hr />
+          LastName: <span class="lastName"></span> <br />
+          <hr />
+          Age: <span class="age"></span> <br />
+          <hr />
+          Gender: <span class="gender"></span>
+        </h2>
+      </div>
+    </div>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>
