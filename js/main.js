@@ -21,9 +21,9 @@ function getPerson() {
       age.textContent = data.results[0].dob.age;
 
       if (data.results[0].gender === "female") {
-        gender.innerHTML = '<i class="fas fa-female"></i>';
+        gender.innerHTML = "Female"+'<i class="fas fa-female"></i>';
       } else {
-        gender.innerHTML = '<i class="fas fa-male"></i>';
+        gender.innerHTML = "Male"+'<i class="fas fa-male"></i>';
       }
     })
 
