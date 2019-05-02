@@ -20,8 +20,8 @@ function getPerson() {
       firstName.textContent = data.results[0].name.first.toUpperCase();
       lastName.textContent = data.results[0].name.last.toUpperCase();
       age.textContent = data.results[0].dob.age;
-      loc.innerHTML = `City - ${data.results[0].location.state.toUpperCase()} <br/>
-      State - ${data.results[0].location.city.toUpperCase()}`;
+      loc.innerHTML = `State: ${data.results[0].location.state.toUpperCase()} <br/>
+      City: ${data.results[0].location.city.toUpperCase()}`;
 
       if (data.results[0].gender === "female") {
         gender.innerHTML = "Female" + ' <i class="fas fa-female"></i>';
